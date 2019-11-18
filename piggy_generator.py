@@ -6,7 +6,7 @@ if len(name) >= 30 or len(name) == 0:
 
 elif len(name)%2 == 0:
     add_spaces = 30 - len(name)
-    name_length=len(name)+add_spaces    # will be adding 10 extra spaces
+    name_length=len(name)+add_spaces  
     name=name.center(name_length)
     print(name)
 
