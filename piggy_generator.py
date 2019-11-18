@@ -8,7 +8,6 @@ elif len(name)%2 == 0:
     add_spaces = 30 - len(name)
     name_length=len(name)+add_spaces  
     name=name.center(name_length)
-    print(name)
 
 else:
     front_spaces = (30 - len(name))//2
@@ -17,8 +16,6 @@ else:
     name=name.ljust(back_length)
     front_length=len(name)+front_spaces
     name=name.rjust(front_length)
-    print(name)
-
 
 print('   M_________________________')
 print("  /                          \\")
