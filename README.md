@@ -1,2 +1,2 @@
-# -Business-Card-Generator
-Generate a piggy business card with entered name
+# Simple Programs I Made to Prank My Friends
+Just for fun ;^)
