@@ -15,7 +15,7 @@ def send_news():
         t = Timer(86400, send_news)
         t.start()
     except:
-        my_friend = bot.friends().search('箫洒哥')[0]
+        my_friend = bot.friends().search(u'箫洒哥')[0]
         my_friend.send(u"今天消息发送失败了")
 
 if __name__ == "__main__":
