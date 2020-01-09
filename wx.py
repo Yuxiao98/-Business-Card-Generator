@@ -1,5 +1,7 @@
 # https://www.itcodemonkey.com/article/6782.html
 # https://github.com/youfou/wxpy
+# This is kind of a chatbot based on WeChat
+# It should send message to 5P5 (one of my friends) every 24 hours automatically
 
 from __future__ import unicode_literals
 from threading import Timer
